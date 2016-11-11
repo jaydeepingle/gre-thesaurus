@@ -1,1 +1,5 @@
-# gre-thesaurus
+## Steps to Run
+
+```bash
+nodejs word.js
+```

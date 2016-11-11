@@ -18,55 +18,10 @@ function fetchSynonyms(currentWord){
                 }
             });
             if(wordList.indexOf(currentWord) != -1) {
-            	console.log(currentWord+"-"+array.join("-"));
-        	}
+                console.log(currentWord+"-"+array.join("-"));
+            }
         }
     });
 }
 var i = 0;
 fetchSynonyms(process.argv[2]);
-/*for (i = 0; i < 333; i++) {
-   fetchSynonyms(wordList[i]);
-}*/
-   
-
-
-
-
-
-
-
-
-
-
-   /*
-   
-   //console.log(currentWord +" === "+ wordList.indexOf($(this).text()) +" === "+ $(this).text());
-
-   //console.log($('.relevancy-list').find('span.text').text());
-            //console.log(wordList.indexOf($(this).text()));
-            if(wordList.indexOf($(this).text()) != -1) {
-                //console.log('============================================');
-                //console.log(wordList[i]);
-                //console.log(i);   
-            }
-            if(wordList.indexOf($(this).text()) != -1) {
-                //console.log('======================');    
-                //console.log(i);   
-            }
-            
-            $('.relevancy-list').find('span.text').each(function() {
-                if(wordList.indexOf($(this).text()) != -1) {
-                    //console.log($(this).text());  
-                    //console.log(i);   
-                }
-            });
-            if(wordList.indexOf($(this).text()) != -1) {
-                //console.log('======================');    
-                //console.log(i);   
-            }
-            if(wordList.indexOf($(this).text()) != -1) {
-                //console.log('======================');    
-                //console.log(i);   
-            }
-    */
